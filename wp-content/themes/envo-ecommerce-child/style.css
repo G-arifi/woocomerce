@@ -1,0 +1,377 @@
+/*
+Theme Name: Envo eCommerce Child
+Theme URI: https://envothemes.com/free-envo-ecommerce/
+Author: Gul Agha
+Author URI: https://envothemes.com/
+Template: envo-ecommerce
+Description: Envo eCommerce is a fast, clean and modern-looking responsive free WooCommerce theme for WordPress. This theme supports popular page builders like Elementor, KingComposer, Beaver Builder, SiteOrigin, Thrive Architect, Divi, Brizy, Visual Composer, etc. The theme is responsive, super fast, SEO friendly, WPML and RTL ready. Documentation: https://envothemes.com/docs/docs/envo-ecommerce/ Theme demo ready to import: https://envothemes.com/envo-ecommerce/
+Version: 1.0.0
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl.html
+Tags: one-column, two-columns, full-width-template, right-sidebar, custom-background, custom-menu, custom-header, editor-style, featured-images, translation-ready, custom-logo, threaded-comments, footer-widgets, rtl-language-support, blog, e-commerce
+Text Domain: envo-ecommerce-child
+*/
+
+.img.custom-logo{
+    width: 70px;
+}
+
+
+body {
+    font-family: 'Open Sans Condensed', "Helvetica Neue", helvetica, arial, sans-serif;
+    padding: 0;
+    color: black;
+    font-weight: 300;
+    line-height: 1.6;
+    font-size: 18px;
+}
+a, a:active, a:hover, a:focus {
+    text-decoration: none;
+    color: #26BBFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    letter-spacing: -.02em;
+}
+.page-header a {
+    border-bottom: 0;
+    color: #000;
+}
+
+.main-container {
+    background-color: #fff;
+}
+
+.menu-description {
+    background: #26BBFF;
+    color: #000;
+}
+.menu-description:after {
+    border-top: 5px solid #26BBFF;
+    left: 3px;
+    bottom: -4px;
+}
+@media (min-width: 768px) {
+    .navbar-center {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-center > li {
+        float: none;
+        display: inline-block;
+    }
+    
+    .header-cart.float-cart a.cart-contents {
+        float: none;
+        background: rgba(255, 255, 255, 1);
+        color: #252424 !important;
+        border: 1px solid #ededed;
+ 
+    }
+    .header-cart.float-cart a.cart-contents i {
+        color: #252424;
+    }
+  
+    .header-my-account.float-login a {
+        background: rgba(255, 255, 255, 1);
+        color: #252424 !important;
+        border: 1px solid #ededed;
+    }
+}
+
+
+.dropdown-submenu>a:after {
+    border-left-color: #ccc;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background-color: #26BBFF;
+}
+.navbar-toggle {
+    border: 1px solid #ccc;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #ccc;
+}
+.nav > li.active > a:after, .current-page-parent:after {
+    background-color: #26BBFF;
+}
+.top-bar-section {
+    background-color: #222;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 14px;
+}
+input, textarea {
+    background-color: #fff;
+    padding: 8px;
+    color: #464a4c;
+    border-radius: 0;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    border: 1px solid #bbb;
+
+}
+
+select {
+    color: #000;
+}
+.widget ul li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+title:before, .widget-title:after {
+    background-color: #e2e2e2;
+}
+
+.widget-title h3 {
+    background-color: #fff;
+}
+.widget:hover .widget-title h3 {
+    border-color: #e2e2e2;
+}
+h1.site-title, .site-title {
+    color: #000;
+    letter-spacing: -.02em;
+}
+
+#site-navigation.shrink {
+    background-color: #ffffff;
+}
+
+#site-navigation {
+    background-color: #ffffff;
+    border-top: 1px solid #e2e2e2; 
+    border-bottom: 1px solid #e2e2e2;
+    border-left: none;
+    border-right: none;
+}
+
+.single-page-header {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+nav.navigation.pagination .nav-links a, nav.navigation.pagination .current {
+    border: 1px solid #b5b5b5;
+}
+
+nav.navigation.pagination .current {
+    color: #fff;
+    background-color: transparent;
+}
+
+#content-footer-section {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+#content-footer-section .news-item h2 a {
+    color: #fff;
+    font-weight: 300;
+}
+#content-footer-section .widget-title h3 {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+#content-footer-section .posted-date, 
+#content-footer-section .comments-meta, 
+#content-footer-section .comments-meta a {
+    color: #cacaca;
+}
+
+.footer-credits-text {
+    padding: 20px 0;
+    color: #fff;
+}
+.site-header {
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+.header-search-form {
+    border-color: #d9d9d9;
+    height: 42px;
+    background-color: #fff;
+}
+select.header-search-select {
+    border-color: #d9d9d9;
+    height: 40px;
+    background-color: #fff;
+}
+input.header-search-input { /*barra recherche nav*/
+    width: 65%;
+    display: inline-block;
+}
+button.header-search-button {
+    border-left: 1px solid;
+    border-color: #d9d9d9;
+}
+.search-field {
+    width: 100%;
+    border: 1px solid #e2e2e2;
+}
+
+input[type="search"].search-field::-webkit-input-placeholder {
+    color: #d7d7d7;
+}
+input[type="search"].search-field:focus::-webkit-input-placeholder {
+    color: #f1f1f1;
+    padding: 20px 0 0 0;
+}
+fieldset {
+    border: 2px solid #e5e5e5;
+}
+
+a.comment-reply-link {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+}
+
+.btn-default, input[type="submit"], input#submit, button, a.comment-reply-link, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt { 
+    color: #26BBFF;
+}
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background-color: transparent;
+    color: #26BBFF;
+}
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+    background: #fafafa;
+    padding: 7px 12px;
+    color: #444;
+    border: 2px solid #e5e5e5;
+    border-radius: 3px;
+}
+
+
+.posted-date,
+.cat-links a,
+.cat-links span,
+.tags-links span {
+    position: relative;
+    color: #404040;
+    font-style: italic;
+}
+.comments-meta {
+    color: #404040;
+}
+.comments-meta a {
+    color: #404040;
+}
+
+.tags-links a {
+    position: relative;
+    color: #404040;
+}
+
+.news-item h2 a {
+    color: #404040;
+}
+
+.author-meta a {
+    color: #000;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
+    color: #000;
+}
+
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    border-color: #d9d9d9;
+}
+
+.woocommerce-MyAccount-navigation li {
+    border: 1px solid #e4e4e4;
+}
+.woocommerce-MyAccount-navigation ul {
+    padding: 0;
+}
+.woocommerce-MyAccount-navigation li.is-active {
+    background-color: rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+.woocommerce .select2-container--default .select2-selection--single {
+    border: 2px solid #e5e5e5;
+}
+
+a.cart-contents i, .header-my-account a {
+    color: #000000;
+}
+.amount-cart {
+    color: #000;
+    background: #26BBFF;
+}
+.amount-cart:before {
+    border-right: 7px solid #26BBFF;
+}
+.cart-contents span.count {
+
+    color: #000;
+    font-weight: 700;
+    background-color: #26BBFF;
+}
+
+.header-cart-block:hover ul.site-header-cart, .product-added-to-cart .header-cart-block ul.site-header-cart {
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs.wc-tabs li:hover a {
+    border-bottom: 2px solid #26BBFF;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+
+    color: #26BBFF;
+ 
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs.wc-tabs li.active a {
+    border-bottom: 2px solid #26BBFF;
+    color: #26BBFF;
+}
+.single-product div.product form.cart .plus,
+.single-product div.product form.cart .minus {
+    color: #e2e2e2;
+
+}
+
+.woocommerce .quantity .qty {
+    border: 1px solid #e2e2e2;
+}
+
+.product_meta {
+    border-bottom: 1px solid #eaeaea;
+
+}
+.woocommerce div.product form.cart {
+    border-color: #eaeaea;
+}
+.woocommerce div.product .product_title {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.woocommerce span.onsale {
+    background-color: #26BBFF!important;
+    color: #000;
+}
+
+.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price {
+    color: #777;
+}
+
+.woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img {
+    width: 60px;
+    border: 1px solid #d9d9d9;
+}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range, 
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+    background-color: #26BBFF;
+}
+
